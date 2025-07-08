@@ -37,10 +37,10 @@ class bcolors:
 print(bcolors.WARNING+'''
                       '''+bcolors.OKGREEN+'''  _____      _         '''+bcolors.WARNING+'''              
                       '''+bcolors.OKGREEN+''' / ____|    | |              '''+bcolors.WARNING+'''             
-         _____  ____ _'''+bcolors.OKGREEN+'''| (___   ___| |_ _   _ _ __ '''+bcolors.WARNING+''' 
-        / _ \ \/ / _` '''+bcolors.OKGREEN+''' \___ \ / _ \ __| | | | '_ \ '''+bcolors.WARNING+'''
-       |  __/>  < (_| '''+bcolors.OKGREEN+''' ____) |  __/ |_| |_| | |_) |'''+bcolors.WARNING+'''   
-        \___/_/\_\__,_'''+bcolors.OKGREEN+'''|_____/ \___|\__|\__,_| .__/ '''+bcolors.OKGREEN+'''   
+         '''+bcolors.OKGREEN+'''| (___   ___| |_ _   _ _ __ '''+bcolors.WARNING+''' 
+         '''+bcolors.OKGREEN+''' \___ \ / _ \ __| | | | '_ \ '''+bcolors.WARNING+'''
+        '''+bcolors.OKGREEN+''' ____) |  __/ |_| |_| | |_) |'''+bcolors.WARNING+'''   
+        '''+bcolors.OKGREEN+'''|_____/ \___|\__|\__,_| .__/ '''+bcolors.OKGREEN+'''   
                                             | |
                                             |_| 
 '''+bcolors.ENDC)
@@ -127,10 +127,10 @@ else:
     print(bcolors.WARNING+'''
                       '''+bcolors.OKGREEN+'''  _____      _         '''+bcolors.WARNING+'''              
                       '''+bcolors.OKGREEN+''' / ____|    | |              '''+bcolors.WARNING+'''             
-         _____  ____ _'''+bcolors.OKGREEN+'''| (___   ___| |_ _   _ _ __ '''+bcolors.WARNING+''' 
-        / _ \ \/ / _` '''+bcolors.OKGREEN+''' \___ \ / _ \ __| | | | '_ \ '''+bcolors.WARNING+'''
-       |  __/>  < (_| '''+bcolors.OKGREEN+''' ____) |  __/ |_| |_| | |_) |'''+bcolors.WARNING+'''   
-        \___/_/\_\__,_'''+bcolors.OKGREEN+'''|_____/ \___|\__|\__,_| .__/ '''+bcolors.OKGREEN+'''   
+        '''+bcolors.OKGREEN+'''| (___   ___| |_ _   _ _ __ '''+bcolors.WARNING+''' 
+        '''+bcolors.OKGREEN+''' \___ \ / _ \ __| | | | '_ \ '''+bcolors.WARNING+'''
+        '''+bcolors.OKGREEN+''' ____) |  __/ |_| |_| | |_) |'''+bcolors.WARNING+'''   
+       '''+bcolors.OKGREEN+'''|_____/ \___|\__|\__,_| .__/ '''+bcolors.OKGREEN+'''   
                                             | |
                                             |_| 
 '''+bcolors.ENDC)
