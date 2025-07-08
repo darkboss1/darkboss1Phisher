@@ -52,13 +52,16 @@ fi
 
 # Display ASCII art
 print_color "
-┏┓┏┓┏┳┓┳┳┏┓
-┗┓┣  ┃ ┃┃┃┃
-┗┛┗┛ ┻ ┗┛┣┛
+██████╗  █████╗ ██████╗ ██╗  ██╗██████╗  ██████╗ ███████╗███████╗ ██╗
+██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔══██╗██╔═══██╗██╔════╝██╔════╝███║
+██║  ██║███████║██████╔╝█████╔╝ ██████╔╝██║   ██║███████╗███████╗╚██║
+██║  ██║██╔══██║██╔══██╗██╔═██╗ ██╔══██╗██║   ██║╚════██║╚════██║ ██║
+██████╔╝██║  ██║██║  ██║██║  ██╗██████╔╝╚██████╔╝███████║███████║ ██║
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚══════╝╚══════╝ ╚═╝                                                                    
 " "OKGREEN"
 
 # Display setup information
-print_color "Welcome to exaphisher setup! Following packages will be installed:\n" "WARNING"
+print_color "Welcome to darkboss1phisher setup! Following packages will be installed:\n" "WARNING"
 echo "- npm"
 echo "- php"
 echo -e "- localtunnel\n"
@@ -79,7 +82,7 @@ if [[ $TERMUX == true ]]; then
     print_color "Termux detected. Setting up..." "OKGREEN"
     pkg install -y openssh openssl php
     print_color "Setup completed successfully!" "OKGREEN"
-    echo "Type python3 main.py to run exaPhisher!"
+    echo "Type python3 main.py to run darkboss1Phisher!"
 elif [[ $DEBIAN == true ]]; then
     # Debian based Linux setup
     print_color "Debian based Linux detected. Setting up..." "OKGREEN"
@@ -100,7 +103,7 @@ elif [[ $DEBIAN == true ]]; then
     # ngrok config add-authtoken YOUR_NGROK_TOKEN_HERE
 
     print_color "Setup completed successfully!" "OKGREEN"
-    echo "Type python3 main.py to run exaPhisher!"
+    echo "Type python3 main.py to run darkboss1Phisher!"
 elif [[ $ARCH == true ]]; then
     # Arch based Linux setup
     print_color "Arch based Linux detected. Setting up..." "OKGREEN"
@@ -117,7 +120,7 @@ elif [[ $ARCH == true ]]; then
     # ngrok config add-authtoken YOUR_NGROK_TOKEN_HERE
 
     print_color "Setup completed successfully!" "OKGREEN"
-    echo "Type python3 main.py to run exaPhisher!"
+    echo "Type python3 main.py to run darkboss1Phisher!"
 else
     print_color "Unsupported system." "FAIL"
     exit 1
