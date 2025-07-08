@@ -68,7 +68,7 @@ else:
 '''+square_3_host+bcolors.WARNING+''' '''+bcolors.ENDC+'''
 '''
 def banner():
-    print(bcolors.WARNING+'''┏┓┏┓┏┳┓┳┳┏┓
+    print(bcolors.WARNING+'''
 ┗┓┣  ┃ ┃┃┃┃
 ┗┛┗┛ ┻ ┗┛┣┛
 
